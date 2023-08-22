@@ -1,5 +1,6 @@
 DELIMITER $$
-
+# Stored procedure for building PD model
+	
 CREATE PROCEDURE sp_Retail_PD_Model_Implement(
         IN Reporting_Year VARCHAR(5),
         IN Reporting_Time VARCHAR(3)
